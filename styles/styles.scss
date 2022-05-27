@@ -1,0 +1,17 @@
+$backgroundColor: hsl(216, 12%, 8%);
+$buttonBackgroundColor: hsl(25, 97%, 53%);
+$circleColor : hsl(216, 12%, 54%);
+@mixin circle($width)
+{
+    width:$width;
+    height:$width;
+    background:$circleColor;
+    border-radius: $width/2;
+
+}
+@mixin textColor($color: hsl(0, 0%, 100%))
+{
+    color: $color;
+}
+
+
