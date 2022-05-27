@@ -1,2 +1,2 @@
-# Interactive rating component project
+# Interactive Rating Component Project
 
